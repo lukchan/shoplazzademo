@@ -1,11 +1,11 @@
 //google map section
-//43.973810027649364, -79.27475048680624
+//43.85057, -79.36308
 
 
 //map search
 function initAutocomplete() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 43.973810027649364, lng: -79.27475048680624},
+    center: { lat: 43.85057, lng: -79.36308},
     zoom: 13,
     mapTypeId: "roadmap",
   });
